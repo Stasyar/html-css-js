@@ -8,6 +8,10 @@
     </title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
+        .reg-form {
+            max-width: 800px;
+            margin: 0 auto;
+        }
         * {
             font-family: 'Roboto', Arial, sans-serif;
         }
@@ -52,7 +56,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: flex-start;
-            background-image: url('/images/man.png');
+            background-image: url('images/man.png');
             background-size: contain;
             background-repeat: no-repeat;
             background-position: right center;
@@ -237,20 +241,19 @@
             <h2>Что я делаю</h2>
             <div class="services">
                 <div>
-                    {% load static %}
-                    <img src="/images/1.png" alt="">
+                    <img src="images/1.png" alt="">
                     Верстка
                 </div>
                 <div>
-                    <img src="/images/2.png" alt="">
+                    <img src="images/2.png" alt="">
                     Адаптация
                 </div>
                 <div>
-                    <img src="/images/3.png" alt="">
+                    <img src="images/3.png" alt="">
                     Frontend-разработка
                 </div>
                 <div>
-                    <img src="/images/4.png" alt="">
+                    <img src="images/4.png" alt="">
                     Исправление
                 </div>
             </div>
@@ -264,15 +267,15 @@
             <div class="examples">
                 <div>
                     {% load static %}
-                    <img src="{% static 'profileapp/images/e1.png' %}" alt="">
+                    <img src="images/e1.png" alt="">
                     Верстка
                 </div>
                 <div>
-                    <img src="{% static 'profileapp/images/e2.png' %}" alt="">
+                    <img src="images/e2.png" alt="">
                     Адаптация
                 </div>
                 <div>
-                    <img src="{% static 'profileapp/images/e3.png' %}" alt="">
+                    <img src="images/e3.png" alt="">
                     Frontend-разработка
                 </div>
             </div>
@@ -308,11 +311,11 @@
             <div class="social">
                 <button class="light-button open-popup">Заказать звонок</button>
                 <div class="social-icons">
-                    <img src="{% static 'profileapp/images/inst.png' %}" alt="">
-                    <img src="{% static 'profileapp/images/fb.png' %}" alt="">
-                    <img src="{% static 'profileapp/images/you.png' %}" alt="">
-                    <img src="{% static 'profileapp/images/telegram.png' %}" alt="">
-                    <img src="{% static 'profileapp/images/vk.png' %}" alt="">
+                    <img src="images/inst.png" alt="">
+                    <img src="images/fb.png" alt="">
+                    <img src="images/you.png" alt="">
+                    <img src="images/telegram.png" alt="">
+                    <img src="images/vk.png" alt="">
                 </div>
             </div>
         </div>
